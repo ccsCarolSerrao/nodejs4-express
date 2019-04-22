@@ -1,0 +1,30 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccsCarolSerrao/nodejs4-express.git"
+  },
+  "author": "Carolina Carvalho Serrão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccsCarolSerrao/nodejs4-express/issues"
+  },
+  "homepage": "https://github.com/ccsCarolSerrao/nodejs4-express#readme",
+  "keywords": [],
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
